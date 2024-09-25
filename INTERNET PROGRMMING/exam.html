@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script>
+        function validateForm(event) {
+            // Get form elements
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            
+            // Check if username and password are not empty
+            if (username === "" || password === "") {
+                alert("Username and Password must be filled out");
+                event.preventDefault(); // Prevent form submission
+                return false;
+            }
+                        // If validation passes, allow form submission
+            return true;
+        }
+    </script>
+    
+</head>
+<body>
+    <form id="loginForm" action="home.html" method="post" onsubmit="validateForm(event)">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

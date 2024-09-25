@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-family: 'Josh',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    justify-content: space-between;
+    z-index: 1000;
+    height: auto;
+    line-height: 1.8;
+}
+
+header {
+    background-color:white;
+    color:black;
+    padding: 20px 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    z-index: 1000;
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0;  
+}
+
+section {
+    background-color: skyblue;
+    padding: 5% 10%;
+}
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+
+}
+
+#shop .product {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#shop .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin-top: 10px;
+}
+
+#contactForm input, #contactForm textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contactForm button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    align-self: right;
+    border-radius: 20px;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid beige;
+    border-radius: 3px;
+}
+button {
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    color: #111;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    transition: all .42s ease;
+}
+
+button:hover {
+
+    background-color: #000;
+    color: #fff;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+.occasions img{
+    border-radius: 10%;
+    
+}
+.product img{
+    border-radius: 10%;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.navmenu {
+    display: flex;
+}
+.navmenu a{
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color: #ee1c47;
+
+}
+.nav-icon{
+ 
+    align-items: center;
+
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #ee1c47;
+}
+#menu-icon{
+    font-size: 35px;
+    color: #2c2c2c;
+    z-index: 10001;
+    cursor: pointer;
+}
+.main-text h5{
+    color: #ee1c47;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.main-text h1{
+    color: #000;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+.main-text p{
+    color: #333c56;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.main-btn{
+    display: inline-block;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+.main-btn:hover{
+    background-color: #000;
+    color:#fff;
+}
+.main-btn i{
+    vertical-align: middle;
+}
+header.sticky{
+    background: #fff;
+    padding: 20px 10%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 /10%);
+}
+.row{
+    position: relative;
+    transition: all .40s;
+}
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    gap: 2rem;
+}

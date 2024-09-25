@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo" ><img src="shop.png"></a>
+            <h2> THE GIFT GALLERY</h2>
+            <ul class="navmenu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button onclick="location.href='login.html';" id="myButton" class="login">Login</button>
+            </ul>
+        <div class="nav-icon">
+            <a href="#"> <i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+        </header>
+
+        <section id="shop">
+            <h2>Shop Our Collection</h2>
+            <div class="product" id="product1">
+                <img src="f1.jpeg" alt="Flower Bouquet 1">
+                <h3>Majestic Bouquet of Roses</h3>
+                <p>Rs.1195</p>
+                <button onclick="addToCart('Majestic Bouquet of Roses', 1195)">Add to Cart</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="f2.jpeg" alt="Flower Bouquet 2">
+                <h3>Mixed Flower Bouquet</h3>
+                <p>Rs.799</p>
+                <button onclick="addToCart('Mixed Flower Bouquet', 799)">Add to Cart</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="f3.avif" alt="Flower Bouquet 2">
+                <h3>Blue 6 Orchid Jute Bouquet</h3>
+                <p>Rs.795</p>
+                <button onclick="addToCart('Blue 6 Orchid Jute Bouquet', 795)">Add to Cart</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="f4.avif" alt="Flower Bouquet 2">
+                <h3>Endless Love</h3>
+                <p>Rs.695</p>
+                <button onclick="addToCart('Endless Love', 695)">Add to Cart</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="f5.avif" alt="Flower Bouquet 2">
+                <h3>Purple Orchid Bouquet</h3>
+                <p>Rs.745</p>
+                <button onclick="addToCart('Purple Orchid Bouquet', 745)">Add to Cart</button>
+            </div>
+        </section>
+        
+        <script src="script.js"></script>
+    
+    </body>
+</html>

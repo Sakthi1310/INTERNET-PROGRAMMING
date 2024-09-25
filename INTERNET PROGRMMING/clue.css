@@ -1,0 +1,131 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:white;
+    color:black;
+    padding: 20px 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+#shop .product {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#shop .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin-top: 10px;
+}
+
+#contactForm input, #contactForm textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contactForm button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    align-self: right;
+    border-radius: 20px;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid beige;
+    border-radius: 3px;
+}
+button {
+    background-color: #460544;
+    color:white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: pink;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+.occasions img{
+    border-radius: 10%;
+    
+}
+.product img{
+    border-radius: 10%;
+}
+

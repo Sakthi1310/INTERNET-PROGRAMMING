@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Registration System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo" ><img src="shop.png"></a>
+        <h2> THE GIFT GALLERY</h2>
+        <ul class="navmenu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button onclick="location.href='login.html';" id="myButton" class="login">Login</button>
+        </ul>
+    <div class="nav-icon">
+        <a href="#"> <i class='bx bx-search'></i></a>
+        <a href="#"><i class='bx bx-cart'></i></a>
+        <a href="#"><i class='bx bx-user'></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+    </header>
+    <nav>
+    <h1 align="center">Login for access</h1>
+    <form id="registration-form" action="connect.php" method="post">
+        <label for="name">Username</label>
+        <input type="text" id="name" name="name" placeholder="Enter your username">
+        <label for="email"> Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a strong password">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter your password">
+        
+   
+    
+<button type="submit" value="submit" id="button" onclick="alert('you are logged in')">login</button>
+</form>
+</body>
+</html>
